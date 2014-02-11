@@ -1,7 +1,7 @@
 require 'erb'
 require 'csv'
 require 'pony'
-require 'mailmerge'
+require './mailmerge'
 
 Pony.options = Pony.options = {
   :via => 'smtp',
